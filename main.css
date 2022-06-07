@@ -37,7 +37,8 @@ input
     padding-top: 4rem;
     margin: 0 0.5rem 0 0.5rem;
     background-color: gold;
-    border: none;
+    border: dotted;
+    border-color: #000066;
     color: black;
     font-family: FBLAfontReg;
     font-size: 35px;
