@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="icon" href="TabIcon2.png">
+        <link rel="stylesheet" href="main.css">
+        <title>FBLA A/E</title>
+    </head>
+    <body>
+        <div id="hud">
+            <h1>FBLA Amusement and Entertainment</h1>
+        </div>
+        <!--div class="bg-image">
+            <img src="Bg-Image.jpg" alt="Amusement Park"> 
+        </div-->
+        <div id="randomImage"></div>
+        <div id="randomText">
+            <h1>Incredible!!</h1>
+            <h3>The hotspot for all things amusement-- and of course, entertainment. Founded by memebers of FBLA, 'FBLA Amusement and Entertainment' aims to give visitors an incredible, family-friendly experience while supporting future business leaders!</h3>
+        </div>
+        <img id="FBLA-Crest" src="FBLA-PBL-Crest.png" alt="FBLA Crest" width="200" height="200">
+        <div class="textArea">
+            <input type="text" value="" id="search" placeholder="Type a Category" onchange="openPage()"/>
+            <script>
+                function openPage()
+                {
+                    var x = document.getElementById("search").value;
+                    //"fun"
+                    if (x === "Fun" || x === "fun") {
+                        window.location.href = "Fun.html";
+                    } 
+                    //"elaxing"
+                    if (x === "Relaxing" || x === "relaxing") {
+                        window.location.href = "Relaxing.html";
+                    }
+                    if (x === "Food" || x === "food") {
+                        window.location.href = "Food.html";
+                    }
+                    if (x === "Shopping" || x === "shopping") {
+                        window.location.href = "Shopping.html";
+                    }
+                    if (x === "Small Businesses" || x === "small businesses" || x === "Small businesses" || x === "small Businesses") {
+                        window.location.href = "SmallBusiness.html";
+                    }
+                }
+            </script>
+        </div>
+        <section>
+            <h2>Our Attraction Categories</h2>
+            <details>
+                <summary>Fun</summary>
+                <p>Our 'Fun' attractions are filled with charismatic and energetic rides and events</p>
+            </details>
+            <details>
+                <summary>Relaxing</summary>
+                <p>Our 'Relaxing' attractions are just the thing you need to have a soothing experience</p>
+            </details>
+            <details>
+                <summary>Food</summary>
+                <p>We have a wide variety of food options around our area. The only problem you'll have is deciding where you want to go</p>
+            </details>
+            <details>
+                <summary>Shopping</summary>
+                <p>Here's a list of shopping areas you can visit to resupply your inventory, fashion, and games while visiting FBLA Amusement and Entertainment</p>
+            </details>
+            <details>
+                <summary>Small Businesses</summary>
+                <p>Here's a list of small business FBLA sponsors that is around the FBLA Amusement Area!</p>
+            </details>
+        </section>
+        <div id="empty"></div>
+        <div id="empty"></div>
+    </body>
+</html>
