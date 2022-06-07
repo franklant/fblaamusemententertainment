@@ -37,8 +37,9 @@ input
 {
     margin: 0 0.5rem 0 0.5rem;
     background-color: gold;
-    border: dotted;
+    border: solid;
     border-color: #000066;
+    border-width: medium;
     color: black;
     font-family: FBLAfontReg;
     font-size: 35px;
