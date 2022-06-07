@@ -24,6 +24,7 @@ html,
 #FBLA-Crest
 {
     padding-top: 4rem;
+    padding-bottom: 4rem;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -34,7 +35,6 @@ html,
 }
 input
 {
-    padding-top: 4rem;
     margin: 0 0.5rem 0 0.5rem;
     background-color: gold;
     border: dotted;
