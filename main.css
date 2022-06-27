@@ -170,14 +170,14 @@ details p
     margin:0 0 1rem;
     padding-top:1rem;
 }
-myButton 
+#myButton 
 {
     text-align: center;
     margin: auto;
     background-color: #000066;
     cursor: pointer;
 }
-myButton:hover 
+button:hover 
 {
     background-color: grey;
 }
