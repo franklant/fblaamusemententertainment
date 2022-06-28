@@ -170,10 +170,13 @@ details p
     margin:0 0 1rem;
     padding-top:1rem;
 }
-#myButton 
+.button
 {
     text-align: center;
     margin: auto;
+}
+#myButton 
+{
     background-color: #000066;
     cursor: pointer;
 }
