@@ -178,6 +178,16 @@ p
     background-size: cover;
     filter: blur(8px);
 }
+#randomFaq
+{
+    background-image: url("faq.png");
+    height: 400px;
+    width: 100%;
+    padding-top: 4rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 #randomText
 {
     background-color: rgb(0,0,0); /* Fallback color */
